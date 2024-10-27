@@ -4,13 +4,19 @@ import java.util.Scanner;
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-        System.out.println("Input the number for which you need to multiply:");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println("Multiplication table for " + n + ":");
+        System.out.println("input the number till where you need to the multiplication table ");
 
-    for (int i = 0; i<=12; i++){
-        System.out.println(n + " x " + i + " = " + (n*i));
+        Scanner sc = new Scanner(System.in);
+        Integer n = sc.nextInt();
+        for (int j =1; j <= n; j++) {
+            System.out.println("Multiplication table for: " + j);
+
+            for (int i = 0; i<=12; i++){
+                System.out.println(j + " x " + j + " = " + (j*i));
+            }
+
         }
+
+
     }
 }
