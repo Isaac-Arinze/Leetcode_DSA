@@ -65,10 +65,10 @@ public class TicTacToe {
         }
         // Check diagonals
         if (Math.abs(board[0][0] + board[1][1] + board[2][2]) == 3) {
-            winner = board[1][1]; // Center
+            winner = board[1][1];
         }
         if (Math.abs(board[0][2] + board[1][1] + board[2][0]) == 3) {
-            winner = board[1][1]; // Center
+            winner = board[1][1];
         }
     }
 }
