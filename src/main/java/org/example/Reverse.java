@@ -2,7 +2,10 @@ package org.example;
 
 public class Reverse {
 
+
+
     public static String name = "Hello";
+
 
     public static void main(String[] args) {
 
@@ -10,6 +13,7 @@ public class Reverse {
         builder.reverse();
         String reversedName = builder.toString();
         System.out.println(reversedName);
+
     }
 
 }
