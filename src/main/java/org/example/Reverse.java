@@ -2,8 +2,6 @@ package org.example;
 
 public class Reverse {
 
-
-
     public static String name = "Hello";
 
 
