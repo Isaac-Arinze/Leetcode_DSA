@@ -42,7 +42,6 @@ public class GreatestComonDivisor {
 
     }
 
-
     public String gcdOfString(String str1, String str2){
 
         if (str1.length() < str2.length()){
